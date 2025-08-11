@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+fight-env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Model files (large files)
+*.keras
+*.h5
+*.pkl
+*.npy
+*.bin
+*.safetensors
+*.onnx
+
+# Video files (large files)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# Image files (if too many)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Logs
+*.log
+controller.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Large model directories
+llava-v1.5-7b/
+flash-attention/
+
+# Dataset directories (too large for git)
+fight-detection-surv-dataset/
+frames/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
